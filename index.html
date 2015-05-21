@@ -5,6 +5,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>Login</title>
+		<script type="text/javascript" src="js/jquery-2.1.1.js" ></script>
+		<script src="js/login.js"></script>
 		<link rel="stylesheet" href="css/app.css">
 		<link rel="stylesheet" href="css/sign.css">
 	</head>
@@ -18,9 +20,9 @@
 			<input id="developer_key" class="rui-input rui-icon rui-icon-email input" placeholder="name" type="email" value="">
 			<input id="password" class="rui-input rui-icon rui-icon-password input" placeholder="password" type="password" value="">
 			<div class="actions">
-				<a href="view/properties.html">
-					<input type="submit" class="rui-button-brand sign-in" name="loginButton" value="Sign in">
-				</a>
+				
+					<input type="submit" class="rui-button-brand sign-in" id="login" value="Sign in">
+			
 				<br />
 				<a href="">Forget Password</a> &nbsp;|&nbsp;
 				<a href="">Sign Up</a>
