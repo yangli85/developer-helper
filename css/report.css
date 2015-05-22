@@ -47,8 +47,8 @@ a {
 }
 .reports-content .graph {
 	position: relative;
-	height: 300px;
-	margin-top: -100px;
+	height: 270px;
+	margin-top: -80px;
 	border-bottom: 1px solid #CCC;
 	margin-bottom: 10px;
 }
@@ -56,6 +56,7 @@ a {
 .reports-content .font-skin {
 	font-size: 18px;
 	margin-left: 10px;
+	margin-bottom:15px;
 	font-family: arial;
 	font-weight: bolder;
 }
