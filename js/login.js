@@ -9,7 +9,7 @@ $(document).ready(function($) {
 			type: 'post',
 			cache: false,
 			success: function(data) {
-				window.location.href = "http://127.0.0.1:8020/developer-helper/view/properties.html"
+				window.location.href = "http://10.29.3.148:8020/developer-helper/view/properties.html"
 			},
 			error: function() {
 				// view("异常！");    

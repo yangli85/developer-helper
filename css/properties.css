@@ -32,7 +32,7 @@ img {
 .title img {
 	vertical-align: middle;
 	border-style: none;
-	height: 52px;
+	height: 40px;
 }
 .cd-container {
 	/* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
