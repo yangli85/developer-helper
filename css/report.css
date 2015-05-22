@@ -4,6 +4,8 @@ html {
 body {
 	margin:0px;
 	padding-top:20px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 a {
 	text-decoration: none;
