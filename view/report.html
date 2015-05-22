@@ -6,15 +6,40 @@
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>Report</title>
 		<link rel="stylesheet" href="../css/app.css">
+		<link rel="stylesheet" href="../css/nav.css">
+		<link rel="stylesheet" href="../css/report.css">
 		<script src="../js/jquery-2.1.1.js"></script>
-		<script src="http://www.amcharts.com/lib/3/amcharts.js"></script>
-		<script src="http://www.amcharts.com/lib/3/pie.js"></script>
-		<script src="http://www.amcharts.com/lib/3/themes/none.js"></script>
-		<script src="../js/report.js"></script>
+		<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+		<script src="../js/report.js"></script>	
 	</head>
 
 	<body>
-		<div id="chartdiv"></div>
+		<div id="cd-nav">
+			<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+			<nav id="cd-main-nav">
+				<ul>
+					<li><a href="properties.html">Properties</a>
+					</li>
+					<li><a href="">Profile</a>
+					</li>
+					<li><a href="">Inception</a>
+					</li>
+					<li><a href="../index.html">Login Out</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header">
+			<img src="../images/tittle.png">
+		</div>
+		<div class='listing_logo'>
+			<img id="picture" src=''>
+		</div>
+		<div class="font-skin"> Exposures</div>
+		<div id="exposures" class='graph'></div>
+		<div class="font-skin">Engagements</div>
+		<div id="engagements" class='graph'></div>
+		<div class="font-skin">Enquires</div>
+		<div id="enquires" class='graph'></div>
 	</body>
-
 </html>

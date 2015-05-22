@@ -43,6 +43,9 @@ textarea {
 	font-family: Museo-Sans-300, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #697684
 }
+a {
+	text-decoration: none;
+}
 ::-moz-selection {
 	background: #333f48;
 	color: #fff;
@@ -1736,7 +1739,6 @@ body:not(.rui-leaderboard-layout) .rui-header .rui-main-logo {
 }
 body {
 	clear: both;
-	padding-top: 157px;
 	text-align: left
 }
 body .rui-grid {
